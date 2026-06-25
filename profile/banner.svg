@@ -17,8 +17,8 @@
 
   <rect width="1280" height="300" fill="url(#bg)"/>
 
-  <!-- Tendril strands — woven cyan curves converging toward the wordmark.
-       Each strand subtly undulates (SMIL) so the banner is alive on GitHub. -->
+  <!-- Tendril strands — static woven cyan curves converging toward the wordmark.
+       The motion lives in the pulses that travel them (below). -->
   <g fill="none" stroke="url(#wire)" stroke-linecap="round">
     <path id="s1" stroke-width="2"   opacity="0.55" d="M0 80 C 220 80, 360 150, 560 148"/>
     <path id="s2" stroke-width="2.5" opacity="0.8"  d="M0 130 C 240 130, 380 150, 560 150"/>
@@ -46,28 +46,28 @@
   <g>
     <!-- Pulses ride the EXACT strand elements via mpath — physically can't misalign -->
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#s1"/></animateMotion>
-      <animate attributeName="opacity" dur="3.2s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
+      <animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#s1"/></animateMotion>
+      <animate attributeName="opacity" dur="1.6s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="2.8s" begin="0.9s" repeatCount="indefinite"><mpath href="#s2"/></animateMotion>
-      <animate attributeName="opacity" dur="2.8s" begin="0.9s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
+      <animateMotion dur="1.4s" begin="0.45s" repeatCount="indefinite"><mpath href="#s2"/></animateMotion>
+      <animate attributeName="opacity" dur="1.4s" begin="0.45s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.6s" begin="1.7s" repeatCount="indefinite"><mpath href="#s3"/></animateMotion>
-      <animate attributeName="opacity" dur="3.6s" begin="1.7s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
+      <animateMotion dur="1.8s" begin="0.85s" repeatCount="indefinite"><mpath href="#s3"/></animateMotion>
+      <animate attributeName="opacity" dur="1.8s" begin="0.85s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.2s" begin="0.4s" repeatCount="indefinite"><mpath href="#s4"/></animateMotion>
-      <animate attributeName="opacity" dur="3.2s" begin="0.4s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
+      <animateMotion dur="1.6s" begin="0.2s" repeatCount="indefinite"><mpath href="#s4"/></animateMotion>
+      <animate attributeName="opacity" dur="1.6s" begin="0.2s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="2.8s" begin="1.3s" repeatCount="indefinite"><mpath href="#s5"/></animateMotion>
-      <animate attributeName="opacity" dur="2.8s" begin="1.3s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
+      <animateMotion dur="1.4s" begin="0.65s" repeatCount="indefinite"><mpath href="#s5"/></animateMotion>
+      <animate attributeName="opacity" dur="1.4s" begin="0.65s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.6s" begin="2.1s" repeatCount="indefinite"><mpath href="#s6"/></animateMotion>
-      <animate attributeName="opacity" dur="3.6s" begin="2.1s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
+      <animateMotion dur="1.8s" begin="1.05s" repeatCount="indefinite"><mpath href="#s6"/></animateMotion>
+      <animate attributeName="opacity" dur="1.8s" begin="1.05s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
   </g>
 
