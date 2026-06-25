@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/invoked-ai/.github/main/profile/banner.svg?v=7" alt="Invoked — design, run, and test AI agents in one workspace" width="100%" />
+<img src="https://raw.githubusercontent.com/invoked-ai/.github/main/profile/banner.svg?v=8" alt="Invoked — design, run, and test AI agents in one workspace" width="100%" />
 
 <br/>
 
