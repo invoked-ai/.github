@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 280" width="1280" height="280" role="img" aria-label="Invoked">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e14"/>
+      <stop offset="1" stop-color="#060b13"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="280" fill="url(#bg)"/>
+
+  <!-- Tendril strands — woven cyan curves converging toward the wordmark -->
+  <g fill="none" stroke="url(#wire)" stroke-linecap="round">
+    <path d="M0 70 C 220 70, 360 150, 560 140" stroke-width="2" opacity="0.7"/>
+    <path d="M0 120 C 240 120, 380 150, 560 145" stroke-width="2.5" opacity="0.9"/>
+    <path d="M0 175 C 230 175, 370 150, 560 150" stroke-width="2" opacity="0.7"/>
+    <path d="M0 220 C 250 220, 400 160, 560 155" stroke-width="1.5" opacity="0.5"/>
+    <path d="M1280 70 C 1060 70, 920 150, 720 140" stroke-width="2" opacity="0.7"/>
+    <path d="M1280 120 C 1040 120, 900 150, 720 145" stroke-width="2.5" opacity="0.9"/>
+    <path d="M1280 175 C 1050 175, 910 150, 720 150" stroke-width="2" opacity="0.7"/>
+    <path d="M1280 220 C 1030 220, 880 160, 720 155" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- Node pulses along the strands -->
+  <g fill="#22d3ee">
+    <circle cx="360" cy="150" r="3.5" opacity="0.9"/>
+    <circle cx="240" cy="120" r="2.5" opacity="0.7"/>
+    <circle cx="920" cy="150" r="3.5" opacity="0.9"/>
+    <circle cx="1040" cy="120" r="2.5" opacity="0.7"/>
+  </g>
+
+  <!-- Central glow behind the mark -->
+  <ellipse cx="640" cy="148" rx="170" ry="80" fill="url(#glow)"/>
+
+  <!-- Wordmark -->
+  <text x="640" y="140" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="2" fill="#ffffff">invoked</text>
+  <text x="640" y="178" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0.5" fill="#9fb3c8">Design, run, and test AI agents in one workspace</text>
+</svg>
