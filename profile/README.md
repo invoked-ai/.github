@@ -32,14 +32,15 @@ Your keys, configs, and run history stay on **your** machine. Only anonymized, a
 | ♻️&nbsp; **Skills** | Turn any winning run into a reusable, versioned skill — pin a model, lock a tool set, share with your team. |
 | 🔍&nbsp; **Runs & evals** | Full trace for every run: reasoning, tool calls, tokens, timing. Compare runs, swap models, score with an LLM judge. |
 
-<table>
+<table cellspacing="14" cellpadding="0" border="0">
   <tr>
-    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" /><div align="center"><sub><b>Harness canvas</b></sub></div></td>
-    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-agent-skills.png" alt="Skill library" /><div align="center"><sub><b>Skills</b></sub></div></td>
+    <td width="50%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" width="96%" /><br/><sub><b>Harness canvas</b></sub></td>
+    <td width="50%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-agent-skills.png" alt="Skill library" width="96%" /><br/><sub><b>Skills</b></sub></td>
   </tr>
+  <tr><td colspan="2" height="14"></td></tr>
   <tr>
-    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-agent-run-history.png" alt="Run history and traces" /><div align="center"><sub><b>Run history & traces</b></sub></div></td>
-    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-llm-evals.png" alt="Evals" /><div align="center"><sub><b>Evals</b></sub></div></td>
+    <td width="50%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-agent-run-history.png" alt="Run history and traces" width="96%" /><br/><sub><b>Run history & traces</b></sub></td>
+    <td width="50%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-llm-evals.png" alt="Evals" width="96%" /><br/><sub><b>Evals</b></sub></td>
   </tr>
 </table>
 
