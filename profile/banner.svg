@@ -20,30 +20,12 @@
   <!-- Tendril strands — woven cyan curves converging toward the wordmark.
        Each strand subtly undulates (SMIL) so the banner is alive on GitHub. -->
   <g fill="none" stroke="url(#wire)" stroke-linecap="round">
-    <path stroke-width="2" opacity="0.6">
-      <animate attributeName="d" dur="7s" repeatCount="indefinite"
-        values="M0 80 C 220 80, 360 150, 560 148; M0 80 C 220 60, 360 150, 560 148; M0 80 C 220 80, 360 150, 560 148"/>
-    </path>
-    <path stroke-width="2.5" opacity="0.85">
-      <animate attributeName="d" dur="6s" repeatCount="indefinite"
-        values="M0 130 C 240 130, 380 150, 560 150; M0 130 C 240 145, 380 150, 560 150; M0 130 C 240 130, 380 150, 560 150"/>
-    </path>
-    <path stroke-width="2" opacity="0.6">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite"
-        values="M0 185 C 230 185, 370 152, 560 152; M0 185 C 230 200, 370 152, 560 152; M0 185 C 230 185, 370 152, 560 152"/>
-    </path>
-    <path stroke-width="2" opacity="0.6">
-      <animate attributeName="d" dur="7s" repeatCount="indefinite"
-        values="M1280 80 C 1060 80, 920 150, 720 148; M1280 80 C 1060 60, 920 150, 720 148; M1280 80 C 1060 80, 920 150, 720 148"/>
-    </path>
-    <path stroke-width="2.5" opacity="0.85">
-      <animate attributeName="d" dur="6s" repeatCount="indefinite"
-        values="M1280 130 C 1040 130, 900 150, 720 150; M1280 130 C 1040 145, 900 150, 720 150; M1280 130 C 1040 130, 900 150, 720 150"/>
-    </path>
-    <path stroke-width="2" opacity="0.6">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite"
-        values="M1280 185 C 1050 185, 910 152, 720 152; M1280 185 C 1050 200, 910 152, 720 152; M1280 185 C 1050 185, 910 152, 720 152"/>
-    </path>
+    <path stroke-width="2"   opacity="0.55" d="M0 80 C 220 80, 360 150, 560 148"/>
+    <path stroke-width="2.5" opacity="0.8"  d="M0 130 C 240 130, 380 150, 560 150"/>
+    <path stroke-width="2"   opacity="0.55" d="M0 185 C 230 185, 370 152, 560 152"/>
+    <path stroke-width="2"   opacity="0.55" d="M1280 80 C 1060 80, 920 150, 720 148"/>
+    <path stroke-width="2.5" opacity="0.8"  d="M1280 130 C 1040 130, 900 150, 720 150"/>
+    <path stroke-width="2"   opacity="0.55" d="M1280 185 C 1050 185, 910 152, 720 152"/>
   </g>
 
   <!-- Tapered-almond pulses traveling each strand toward the center.
