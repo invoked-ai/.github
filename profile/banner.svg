@@ -54,7 +54,7 @@
 
   <!-- Real Invoked wordmark (vector letterforms — font-independent).
        Source viewBox 0 0 4774 1238; scaled to ~420px wide, centered. -->
-  <g transform="translate(430, 118) scale(0.34)" fill="#ffffff">
+  <g transform="translate(461, 110) scale(0.075)" fill="#ffffff">
     <g transform="translate(0,946) scale(1,-1)">
       <path transform="translate(0,0)" d="M221 427C221 473 185 511 138 513C185 515 221 552 221 598C221 646 183 684 135 684C88 684 50 646 50 598C50 552 86 515 131 513C86 511 50 473 50 427V85C50 39 88 0 135 0C183 0 221 39 221 85Z" />
       <path transform="translate(271,0)" d="M221 85C221 131 185 169 138 171C185 173 221 210 221 256V392L588 25C604 9 626 0 648 0C696 0 734 39 734 85V598C734 645 695 684 648 684C601 684 563 646 563 598V292L196 659C180 674 158 684 135 684C88 684 50 645 50 598V256C50 210 86 173 131 171C86 169 50 132 50 85C50 38 89 0 135 0C183 0 221 38 221 85Z" />
@@ -67,5 +67,5 @@
   </g>
 
   <!-- Tagline -->
-  <text x="640" y="225" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0.5" fill="#9fb3c8">Design, run, and test AI agents in one workspace</text>
+  <text x="640" y="205" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="0.5" fill="#9fb3c8">Design, run, and test AI agents in one workspace</text>
 </svg>
