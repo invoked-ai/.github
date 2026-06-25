@@ -34,12 +34,12 @@ Your keys, configs, and run history stay on **your** machine. Only anonymized, a
 
 <table>
   <tr>
-    <td width="50%"><img src="https://invoked.ai/screenshots/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" /><div align="center"><sub><b>Harness canvas</b></sub></div></td>
-    <td width="50%"><img src="https://invoked.ai/screenshots/invoked-ai-agent-skills.png" alt="Skill library" /><div align="center"><sub><b>Skills</b></sub></div></td>
+    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" /><div align="center"><sub><b>Harness canvas</b></sub></div></td>
+    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-agent-skills.png" alt="Skill library" /><div align="center"><sub><b>Skills</b></sub></div></td>
   </tr>
   <tr>
-    <td width="50%"><img src="https://invoked.ai/screenshots/invoked-ai-agent-run-history.png" alt="Run history and traces" /><div align="center"><sub><b>Run history & traces</b></sub></div></td>
-    <td width="50%"><img src="https://invoked.ai/screenshots/invoked-ai-llm-evals.png" alt="Evals" /><div align="center"><sub><b>Evals</b></sub></div></td>
+    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-agent-run-history.png" alt="Run history and traces" /><div align="center"><sub><b>Run history & traces</b></sub></div></td>
+    <td width="50%" style="padding: 10px;"><img src="https://invoked.ai/screenshots/invoked-ai-llm-evals.png" alt="Evals" /><div align="center"><sub><b>Evals</b></sub></div></td>
   </tr>
 </table>
 
