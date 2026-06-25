@@ -30,7 +30,7 @@
 
   <!-- Tapered-almond pulses traveling each strand toward the center.
        The almond is a lens (two mirrored quad curves, sharp points), oriented
-       along travel via rotate="auto". keyPoints/keyTimes ease them in, brighten
+       along travel via. keyPoints/keyTimes ease them in, brighten
        toward center, then fade as they converge into the glow. -->
   <defs>
     <filter id="pulseGlow" x="-80%" y="-400%" width="260%" height="900%">
@@ -38,7 +38,7 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <!-- sleek tapered almond, ~24px long + very thin, pointing +x (travel dir) -->
-    <g id="pulse" filter="url(#pulseGlow)">
+    <g id="pulse">
       <path d="M-12 0 Q 0 -1.5 12 0 Q 0 1.5 -12 0 Z" fill="#67e8f9"/>
       <path d="M-8 0 Q 0 -0.8 8 0 Q 0 0.8 -8 0 Z" fill="#ffffff"/>
     </g>
@@ -46,28 +46,28 @@
   <g>
     <!-- left strands → center -->
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.2s" repeatCount="indefinite" rotate="auto" path="M0 80 C 220 80, 360 150, 560 148"/>
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M0 80 C 220 80, 360 150, 560 148"/>
       <animate attributeName="opacity" dur="3.2s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="2.8s" begin="0.9s" repeatCount="indefinite" rotate="auto" path="M0 130 C 240 130, 380 150, 560 150"/>
+      <animateMotion dur="2.8s" begin="0.9s" repeatCount="indefinite" path="M0 130 C 240 130, 380 150, 560 150"/>
       <animate attributeName="opacity" dur="2.8s" begin="0.9s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.6s" begin="1.7s" repeatCount="indefinite" rotate="auto" path="M0 185 C 230 185, 370 152, 560 152"/>
+      <animateMotion dur="3.6s" begin="1.7s" repeatCount="indefinite" path="M0 185 C 230 185, 370 152, 560 152"/>
       <animate attributeName="opacity" dur="3.6s" begin="1.7s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <!-- right strands → center (path runs from edge inward, so pulses travel toward center) -->
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.2s" begin="0.4s" repeatCount="indefinite" rotate="auto" path="M1280 80 C 1060 80, 920 150, 720 148"/>
+      <animateMotion dur="3.2s" begin="0.4s" repeatCount="indefinite" path="M1280 80 C 1060 80, 920 150, 720 148"/>
       <animate attributeName="opacity" dur="3.2s" begin="0.4s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="2.8s" begin="1.3s" repeatCount="indefinite" rotate="auto" path="M1280 130 C 1040 130, 900 150, 720 150"/>
+      <animateMotion dur="2.8s" begin="1.3s" repeatCount="indefinite" path="M1280 130 C 1040 130, 900 150, 720 150"/>
       <animate attributeName="opacity" dur="2.8s" begin="1.3s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
     <use href="#pulse" opacity="0">
-      <animateMotion dur="3.6s" begin="2.1s" repeatCount="indefinite" rotate="auto" path="M1280 185 C 1050 185, 910 152, 720 152"/>
+      <animateMotion dur="3.6s" begin="2.1s" repeatCount="indefinite" path="M1280 185 C 1050 185, 910 152, 720 152"/>
       <animate attributeName="opacity" dur="3.6s" begin="2.1s" repeatCount="indefinite" values="0;0.85;1;0;0" keyTimes="0;0.4;0.62;0.82;1"/>
     </use>
   </g>
