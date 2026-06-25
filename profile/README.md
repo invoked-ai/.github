@@ -32,19 +32,19 @@ Your keys, configs, and run history stay on **your** machine. Only anonymized, a
 | ♻️&nbsp; **Skills** | Turn any winning run into a reusable, versioned skill — pin a model, lock a tool set, share with your team. |
 | 🔍&nbsp; **Runs & evals** | Full trace for every run: reasoning, tool calls, tokens, timing. Compare runs, swap models, score with an LLM judge. |
 
-<table border="0">
-  <tr>
-    <td width="48%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" /><br/><sub><b>Harness canvas</b></sub></td>
-    <td width="4%"></td>
-    <td width="48%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-agent-skills.png" alt="Skill library" /><br/><sub><b>Skills</b></sub></td>
-  </tr>
-  <tr><td colspan="3" height="18"></td></tr>
-  <tr>
-    <td width="48%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-agent-run-history.png" alt="Run history and traces" /><br/><sub><b>Run history & traces</b></sub></td>
-    <td width="4%"></td>
-    <td width="48%" align="center" valign="top"><img src="https://invoked.ai/screenshots/invoked-ai-llm-evals.png" alt="Evals" /><br/><sub><b>Evals</b></sub></td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="https://invoked.ai/screenshots/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" width="47%" /> &nbsp;&nbsp; <img src="https://invoked.ai/screenshots/invoked-ai-agent-skills.png" alt="Skill library" width="47%" />
+
+<sub><b>Harness canvas</b></sub> &nbsp; &middot; &nbsp; <sub><b>Skills</b></sub>
+
+<br/><br/>
+
+<img src="https://invoked.ai/screenshots/invoked-ai-agent-run-history.png" alt="Run history and traces" width="47%" /> &nbsp;&nbsp; <img src="https://invoked.ai/screenshots/invoked-ai-llm-evals.png" alt="Evals" width="47%" />
+
+<sub><b>Run history &amp; traces</b></sub> &nbsp; &middot; &nbsp; <sub><b>Evals</b></sub>
+
+</div>
 
 ## Works with the tools you already use
 
