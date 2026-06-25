@@ -58,3 +58,9 @@ Free 10-day trial — no credit card, no account required. **macOS** (Apple Sili
 <sub>Students: <a href="https://invoked.ai/students"><b>Solo is free</b></a>. Building with a class or club? Team is 40% off.</sub>
 
 </div>
+
+---
+
+<sub>animation test (temporary):</sub>
+
+<img src="https://raw.githubusercontent.com/invoked-ai/.github/main/profile/anim-test.svg?v=1" alt="animation test" width="120" />
