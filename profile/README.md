@@ -33,10 +33,10 @@ Your keys, configs, and run history stay on **your** machine. Only anonymized, a
 | 🔍&nbsp; **Runs & evals** | Full trace for every run: reasoning, tool calls, tokens, timing. Compare runs, swap models, score with an LLM judge. |
 
 <table>
-<tr><td align="center" width="380"><img src="https://invoked.ai/screenshots/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" width="360" /><br/><sub><b>Harness canvas</b></sub></td>
-<td align="center" width="380"><img src="https://invoked.ai/screenshots/invoked-ai-agent-skills.png" alt="Skill library" width="360" /><br/><sub><b>Skills</b></sub></td></tr>
-<tr><td align="center" width="380"><img src="https://invoked.ai/screenshots/invoked-ai-agent-run-history.png" alt="Run history and traces" width="360" /><br/><sub><b>Run history &amp; traces</b></sub></td>
-<td align="center" width="380"><img src="https://invoked.ai/screenshots/invoked-ai-llm-evals.png" alt="Evals" width="360" /><br/><sub><b>Evals</b></sub></td></tr>
+<tr><td align="center" width="50%"><img src="https://raw.githubusercontent.com/invoked-ai/.github/main/profile/gallery/invoked-ai-multi-agent-flow-canvas.png" alt="Agent harness canvas" /><br/><sub><b>Harness canvas</b></sub></td>
+<td align="center" width="50%"><img src="https://raw.githubusercontent.com/invoked-ai/.github/main/profile/gallery/invoked-ai-agent-skills.png" alt="Skill library" /><br/><sub><b>Skills</b></sub></td></tr>
+<tr><td align="center" width="50%"><img src="https://raw.githubusercontent.com/invoked-ai/.github/main/profile/gallery/invoked-ai-agent-run-history.png" alt="Run history and traces" /><br/><sub><b>Run history &amp; traces</b></sub></td>
+<td align="center" width="50%"><img src="https://raw.githubusercontent.com/invoked-ai/.github/main/profile/gallery/invoked-ai-llm-evals.png" alt="Evals" /><br/><sub><b>Evals</b></sub></td></tr>
 </table>
 
 ## Works with the tools you already use
